@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Keshri's Melody Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Keshri's Melody Hub</h1>
+        <input type="file" id="fileInput" multiple>
+        <label for="fileInput">Choose Files</label>
+        <div>
+            <button id="addButton">Add to Playlist</button>
+            <button id="deleteButton">Delete a Song</button>
+        </div>
+        <ul id="playlist"></ul>
+        <div id="player">
+            <audio id="audioPlayer" controls></audio>
+            <div class="controls">
+                <button id="prevButton">Previous</button>
+                <button id="nextButton">Next</button>
+            </div>
+            <p id="currentTrack"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
